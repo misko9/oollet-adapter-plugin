@@ -1,5 +1,5 @@
 {
-  "name": "oollet-adapter-plugin",
+  "name": "@miskollc/oollet-adapter-plugin",
   "version": "0.1.0",
   "description": "Oollet adapter plugin to use with Aptos Wallet Adapter",
   "author": "Oollet",
@@ -26,5 +26,21 @@
     "ts-jest": "^29.1.1",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misko9/oollet-adapter-plugin.git"
+  },
+  "keywords": [
+    "aptos",
+    "wallet",
+    "adapter",
+    "oollet",
+    "plugin",
+    "0L"
+  ],
+  "bugs": {
+    "url": "https://github.com/misko9/oollet-adapter-plugin/issues"
+  },
+  "homepage": "https://github.com/misko9/oollet-adapter-plugin#readme"
 }
