@@ -1,0 +1,30 @@
+{
+  "name": "oollet-adapter-plugin",
+  "version": "0.1.0",
+  "description": "Oollet adapter plugin to use with Aptos Wallet Adapter",
+  "author": "Oollet",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "license": "Apache-2.0",
+  "exports": {
+    "require": "./dist/index.js",
+    "import": "./dist/index.mjs",
+    "types": "./dist/index.d.ts"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@aptos-labs/wallet-adapter-core": "^3.5.0",
+    "aptos": "^1.21.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
