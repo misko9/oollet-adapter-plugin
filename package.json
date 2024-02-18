@@ -1,6 +1,6 @@
 {
   "name": "@miskollc/oollet-adapter-plugin",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Oollet adapter plugin to use with Aptos Wallet Adapter",
   "author": "Oollet",
   "main": "./dist/index.js",
